@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="urn:mpeg:dash:schema:mpd:2011"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+	profiles="urn:mpeg:dash:profile:isoff-live:2011"
+	type="static"
+	mediaPresentationDuration="PT1H16M6.9S"
+	maxSegmentDuration="PT1M0.0S"
+	minBufferTime="PT2M0.0S">
+	<ProgramInformation>
+		<Title>netvideo</Title>
+	</ProgramInformation>
+	<ServiceDescription id="0">
+	</ServiceDescription>
+	<Period id="0" start="PT0.0S">
+		<AdaptationSet id="0" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" frameRate="24/1" maxWidth="1024" maxHeight="768" par="12:5" lang="spa">
+			<Representation id="0" mimeType="video/mp4" codecs="avc1.64001f" bandwidth="2000000" width="1024" height="768" sar="9:5">
+				<SegmentTemplate timescale="12288" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="747008" />
+						<S d="773632" />
+						<S d="759296" />
+						<S d="757248" />
+						<S d="777216" />
+						<S d="758784" />
+						<S d="754176" />
+						<S d="737280" />
+						<S d="741376" />
+						<S d="816128" />
+						<S d="809984" />
+						<S d="762880" />
+						<S d="747008" r="2" />
+						<S d="769024" />
+						<S d="738304" />
+						<S d="752640" />
+						<S d="826368" />
+						<S d="763904" />
+						<S d="793088" />
+						<S d="743936" />
+						<S d="748544" />
+						<S d="817152" />
+						<S d="769024" />
+						<S d="764928" />
+						<S d="769536" />
+						<S d="756224" />
+						<S d="772608" />
+						<S d="757248" />
+						<S d="823296" />
+						<S d="739328" />
+						<S d="743936" />
+						<S d="773120" />
+						<S d="752128" />
+						<S d="789504" />
+						<S d="809472" />
+						<S d="747008" />
+						<S d="818176" />
+						<S d="745472" />
+						<S d="839168" />
+						<S d="826880" />
+						<S d="759296" />
+						<S d="754688" />
+						<S d="787968" />
+						<S d="743936" />
+						<S d="832512" />
+						<S d="833536" />
+						<S d="739840" />
+						<S d="786432" />
+						<S d="750080" />
+						<S d="771072" />
+						<S d="750080" />
+						<S d="774144" />
+						<S d="751104" />
+						<S d="808448" />
+						<S d="770560" />
+						<S d="796672" />
+						<S d="776192" />
+						<S d="737280" />
+						<S d="759296" />
+						<S d="744960" />
+						<S d="779776" />
+						<S d="841216" />
+						<S d="863744" />
+						<S d="753152" />
+						<S d="741376" />
+						<S d="748032" />
+						<S d="744960" />
+						<S d="743424" />
+						<S d="737280" r="1" />
+						<S d="614400" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet id="1" contentType="audio" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" lang="spa">
+			<Representation id="1" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="192000" audioSamplingRate="48000">
+				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+				<SegmentTemplate timescale="48000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="2879488" />
+						<S d="2880512" r="74" />
+						<S d="296960" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+	</Period>
+</MPD>
