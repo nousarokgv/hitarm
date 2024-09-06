@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="urn:mpeg:dash:schema:mpd:2011"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+	profiles="urn:mpeg:dash:profile:isoff-live:2011"
+	type="static"
+	mediaPresentationDuration="PT1H38M36.5S"
+	maxSegmentDuration="PT1M0.0S"
+	minBufferTime="PT2M5.1S">
+	<ProgramInformation>
+	</ProgramInformation>
+	<ServiceDescription id="0">
+	</ServiceDescription>
+	<Period id="0" start="PT0.0S">
+		<AdaptationSet id="0" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" frameRate="24000/1001" maxWidth="1280" maxHeight="720" par="12:5">
+			<Representation id="0" mimeType="video/mp4" codecs="avc1.64001f" bandwidth="2000000" width="1280" height="720" sar="27:20">
+				<SegmentTemplate timescale="24000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="1486485" />
+						<S d="1554553" />
+						<S d="1449448" />
+						<S d="1494493" />
+						<S d="1483482" />
+						<S d="1472471" />
+						<S d="1464463" />
+						<S d="1557556" />
+						<S d="1462461" />
+						<S d="1465464" />
+						<S d="1497496" />
+						<S d="1502501" />
+						<S d="1465464" />
+						<S d="1449448" />
+						<S d="1447446" />
+						<S d="1473472" />
+						<S d="1640639" />
+						<S d="1474473" />
+						<S d="1446445" />
+						<S d="1483482" />
+						<S d="1487486" />
+						<S d="1610609" />
+						<S d="1592591" />
+						<S d="1467466" />
+						<S d="1483482" />
+						<S d="1548547" />
+						<S d="1525524" />
+						<S d="1576575" />
+						<S d="1476475" />
+						<S d="1472471" />
+						<S d="1551550" />
+						<S d="1494493" />
+						<S d="1627626" />
+						<S d="1479478" />
+						<S d="1628627" />
+						<S d="1514513" />
+						<S d="1551550" />
+						<S d="1453452" />
+						<S d="1679678" />
+						<S d="1600599" />
+						<S d="1462461" />
+						<S d="1582581" />
+						<S d="1442441" />
+						<S d="1482481" />
+						<S d="1464463" />
+						<S d="1476475" />
+						<S d="1555554" />
+						<S d="1485484" />
+						<S d="1519518" />
+						<S d="1480479" />
+						<S d="1487486" />
+						<S d="1488487" />
+						<S d="1486485" />
+						<S d="1499498" />
+						<S d="1485484" />
+						<S d="1466465" />
+						<S d="1445444" />
+						<S d="1475474" />
+						<S d="1469468" />
+						<S d="1460459" />
+						<S d="1568567" />
+						<S d="1470469" />
+						<S d="1461460" />
+						<S d="1627626" />
+						<S d="1606605" />
+						<S d="1502501" />
+						<S d="1479478" />
+						<S d="1459458" />
+						<S d="1559558" />
+						<S d="1475474" />
+						<S d="1455454" />
+						<S d="1453452" />
+						<S d="1444443" />
+						<S d="1482481" />
+						<S d="1449448" />
+						<S d="1526525" />
+						<S d="1461460" />
+						<S d="1504503" />
+						<S d="1463462" />
+						<S d="1508507" />
+						<S d="1443442" />
+						<S d="1504503" />
+						<S d="1507506" />
+						<S d="1549548" />
+						<S d="1450449" />
+						<S d="1442441" />
+						<S d="1588587" />
+						<S d="1464463" />
+						<S d="1542541" />
+						<S d="1671670" />
+						<S d="1501500" r="3" />
+						<S d="553553" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet id="1" contentType="audio" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true">
+			<Representation id="1" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="192000" audioSamplingRate="44100">
+				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+				<SegmentTemplate timescale="44100" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="2644992" />
+						<S d="2646016" r="21" />
+						<S d="2646015" />
+						<S d="2646017" />
+						<S d="2646016" r="5" />
+						<S d="2646015" />
+						<S d="2646017" />
+						<S d="2646016" r="9" />
+						<S d="2646015" />
+						<S d="2646017" />
+						<S d="2646016" r="3" />
+						<S d="2646015" />
+						<S d="2646017" />
+						<S d="2646016" r="5" />
+						<S d="2646015" />
+						<S d="2646017" />
+						<S d="2646016" r="3" />
+						<S d="2646015" />
+						<S d="2646017" />
+						<S d="2646016" r="3" />
+						<S d="2646015" />
+						<S d="2646017" />
+						<S d="2646016" r="11" />
+						<S d="2646015" />
+						<S d="2646017" />
+						<S d="2646016" r="9" />
+						<S d="2646015" />
+						<S d="2646017" />
+						<S d="2646016" />
+						<S d="1550336" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+	</Period>
+</MPD>
